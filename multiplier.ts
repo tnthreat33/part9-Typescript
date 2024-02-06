@@ -11,4 +11,5 @@ const calculator = (a: number, b: number, op: Opertion) =>{
     }
 }
 
+
 console.log(calculator(1,2,'add'))
