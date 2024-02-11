@@ -1,5 +1,6 @@
 type Operation = 'multiply' | 'add' | 'divide';
 
+
 const calculator = (a: number, b: number, op: Operation) : number => {
   switch(op) {
     case 'multiply':
