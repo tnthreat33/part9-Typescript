@@ -30,5 +30,4 @@ interface MultiplyValues {
       errorMessage += ' Error: ' + error.message;
     }
     console.log(errorMessage);
-    
   }
