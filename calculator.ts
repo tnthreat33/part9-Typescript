@@ -11,7 +11,7 @@ const calculator = (a: number, b: number, op: Operation) : number => {
     case 'add':
       return a + b;
     default:
-      throw new Error('Operation is not multiply, add or divide!');
+      throw new Error('Operation is not multiply, add, or divide!');
   }
 }
 
