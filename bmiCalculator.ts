@@ -1,5 +1,5 @@
 const calculateBmi = (height:number, weight:number) => {
-    let bmi = height/weight^2 
+    let bmi = weight / ((height / 100) * (height / 100))
     if(bmi > 18.5){
         return "under weight"
     }else if (bmi>= 18.5 && bmi<25){
@@ -12,4 +12,3 @@ const calculateBmi = (height:number, weight:number) => {
   }
 
   console.log(calculateBmi(180,74))
-  
