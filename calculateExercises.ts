@@ -39,6 +39,6 @@ const calculateExercises = (hours: number[], target: number): Result => {
     };
 }
 
-console.log(calculateExercises([5,4,5,5,5,1], 5))
+console.log(calculateExercises([5,4,5,5,5,1], 3))
 
 export default calculateExercises;
