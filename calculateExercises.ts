@@ -9,7 +9,6 @@ interface Result {
 }
 
 const calculateExercises = (hours: number[], target: number): Result => {
-    
     const periodLength: number = hours.length;
     const trainingDays: number = hours.filter(hour => hour > 0).length;
     const sum: number = hours.reduce((a, b) => a + b, 0);
