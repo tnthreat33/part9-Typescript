@@ -1,4 +1,5 @@
 interface Result {
+    
     periodLength: number;
     trainingDays: number;
     success: boolean;
